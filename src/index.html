@@ -1,0 +1,24 @@
+<html>
+  <body>
+
+    <div id="content">
+      000000
+    </div>
+
+  </body>
+  <script src="node_modules/otplib/otplib-browser.js"> </script>
+  <script type="text/javascript">
+    const otp = window.otplib
+
+    const secret = 'WBTVKFRMCSUZO7NKIMMJEDQJ362TAFSG'
+    const token = otplib.authenticator.generate(secret);
+
+    const displayToken = () => {
+      const token = otplib.authenticator.generate(secret);
+      document.getElementById("content").innerHTML = token
+    }
+    displayToken();
+
+    setInterval(displayToken, 10000 ) 
+  </script>
+</html>

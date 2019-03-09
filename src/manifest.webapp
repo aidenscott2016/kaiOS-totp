@@ -1,0 +1,21 @@
+{
+  "version": "0.0.1",
+  "name": "totp",
+  "description": "simple totp app",
+  "launch_path": "/your/repository/index.html",
+  "icons": {
+    "56": "/your/repository/icons/ic_Appname_56.png",
+    "112": "/your/repository/icons/ic_Appname_112.png"
+  },
+  "developer": {
+    "name": "Your Name",
+    "url": "http://yourawesomeapp.com"
+  },
+  "locales": {
+    "en-US": {
+      "name": "The Open Web",
+      "description": "Your new web app application"
+    }
+  },
+  "default_locale": "en-US"
+}
