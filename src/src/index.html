@@ -2,23 +2,11 @@
   <body>
 
     <div id="content">
-      000000
+      0000002
     </div>
 
   </body>
   <script src="otplib-browser.js"> </script>
-  <script type="text/javascript">
-    const otp = window.otplib
-
-    const secret = 'WBTVKFRMCSUZO7NKIMMJEDQJ362TAFSG'
-    const token = otplib.authenticator.generate(secret);
-
-    const displayToken = () => {
-      const token = otplib.authenticator.generate(secret);
-      document.getElementById("content").innerHTML = token
-    }
-    displayToken();
-
-    setInterval(displayToken, 10000 ) 
+  <script src="index.js"> </script>
   </script>
 </html>
